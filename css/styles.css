@@ -32,6 +32,7 @@ img {
 }
 
 input#search {
+  display: block;
   width: 80%;
   height: 30px;
   border-radius: 5px;
@@ -105,9 +106,7 @@ ul#update {
 }
 
 .formgroup {
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 5px;
   text-align: left;
 }
 

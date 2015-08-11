@@ -1,31 +1,37 @@
 [
 {
 "name": "Andra Lally",
+"number": "6",
 "bio": "some bio about this person above. For artists 6",
 "img": "http://lorempixel.com/500/200/fashion/1"
 },
 {
 "name": "Sam Pills",
+"number": "5",
 "bio": "some bio about this person above. For artists 5",
 "img": "http://lorempixel.com/500/200/fashion/2"
 },
 {
 "name": "Mark Smith",
+"number": "4",
 "bio": "some bio about this person above. For artists 4",
 "img": "http://lorempixel.com/500/200/fashion/3"
 },
 {
 "name": "Harry Lulls",
+"number": "3",
 "bio": "some bio about this person above. For artists 3",
 "img": "http://lorempixel.com/500/200/fashion/4"
 },
 {
 "name": "Heth Breg",
+"number": "2",
 "bio": "some bio about this person above. For artists 2",
 "img": "http://lorempixel.com/500/200/fashion/5"
 },
 {
 "name": "Kathy Ponder",
+"number": "1",
 "bio": "some bio about this person above. For artists 1",
 "img": "http://lorempixel.com/500/200/fashion/6"
 }
