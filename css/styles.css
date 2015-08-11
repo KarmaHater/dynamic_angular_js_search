@@ -103,3 +103,14 @@ ul#update {
 .clear-fix {
   clear: both;
 }
+
+.formgroup {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.formgroup  span {
+  font-size: 15px;
+}

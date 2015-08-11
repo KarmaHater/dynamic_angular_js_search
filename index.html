@@ -11,14 +11,21 @@
   <div class="main" ng-controller="MyCtrl">
     <div id="searcharea">
       <h1>Artist Directory</h1>
-      <input id="search" type="text" placeholder="Search for artists" autofocus>
+      <input ng-model="query" id="search" type="text" placeholder="Search for artists" autofocus>
+      <label class="formgroup"> 
+        <span>Search By:</span>
+        <select ng-model="artistOrder">
+          <option value="name">Name</option>
+          <option value="address">Option</option>
+        </select>
+      </label>
     </div>
     <ul class="artistlist" id="update">
-      <li class="artist" ng-repeat=" item in artists">
+      <li class="artist" ng-repeat=" item in artists | filter:query | orderBy:artistOrder">
         <img ng-src={{item.img}} alt="">
         <div class="info">
-          <h2>{{item.name | uppercase}}</h2>
-          <h3>{{item.address}}</h3>
+          <h2>{{ item.name }}</h2>
+          <h3>{{ item.bio }}</h3>
         </div>
       <div class="clear-fix"></div>
       </li>
