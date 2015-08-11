@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular Search</title>
+  <script src="vendor/angular.js"></script>
+  <script src="js/controllers.js"></script>
+</head>
+<body>
+  <div class="main" ng-controller="MyCtrl">
+    <ul class="artistlist">
+      <li class="artist" ng-repeat=" item in artists">
+        <img ng-src={{item.img}} alt="">
+        <div class="info">
+          <h2>{{item.name}}</h2>
+          <h3>{{item.address}}</h3>
+        </div>
+      </li>
+    </ul>
+    <h1>{{author.name}}</h1>
+  </div>
+</body>
+</html>
