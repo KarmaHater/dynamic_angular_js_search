@@ -2,6 +2,15 @@ body {
   background: #DAD7C7
 }
 
+a { 
+  text-decoration: none;
+  color: #A61C1C;
+}
+
+a:hover {
+  color: red;
+}
+
 .artist {
   overflow: hidden;
   height: 160px;

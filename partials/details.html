@@ -1,0 +1,10 @@
+<section class="artistinfo">
+  <div ng-model="artist">
+    <a href="#/details/{{prevItem}}">  | Prev </a>
+    <a href="#/details/{{nextItem}}"> | Next |  </a>
+    <h1>{{artists[whichItem].name}}</h1>
+    <div>{{artists[whichItem].id}}</div>
+    <div>{{artists[whichItem].bio}}</div>
+    <img ng-src={{artists[whichItem].img}}>
+  </div>
+</section>
