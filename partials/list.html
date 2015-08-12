@@ -19,7 +19,7 @@
     </label>
   </div>
 
-  <ul class="artistlist" id="update">
+  <ul class="artistlist" id="update" ng-show="query">
     <li class="artist" ng-repeat=" item in artists | filter:query | orderBy:artistOrder:direction">
       <div class="info">
         <a href="#details/{{artists.indexOf(item)}}">
